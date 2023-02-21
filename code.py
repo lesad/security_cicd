@@ -1,3 +1,5 @@
+import random
+
 def main():
     # craete a list of 10 random numbers
     list1 = [random.randint(0, 100) for i in range(10)]
